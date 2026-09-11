@@ -1,2 +1,102 @@
-# electricity-helpdesk
-Electricity Department Helpdesk AI-powered WhatsApp assistance for electricity consumers.  Services  Bill download guidance Payment issue assistance Electricity complaint registration Complaint status assistance
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electricity Department Helpdesk</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f7fb;
+      color: #222;
+    }
+    header {
+      background: #174ea6;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 10px; }
+    header p { margin: 0; }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+    h2 { color: #174ea6; }
+    ul { line-height: 1.8; }
+    .note {
+      border-left: 4px solid #174ea6;
+      padding: 15px;
+      background: #eef4ff;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Electricity Department Helpdesk</h1>
+  <p>AI-powered WhatsApp assistance for electricity consumers</p>
+</header>
+
+<main>
+  <section class="card">
+    <h2>About the Project</h2>
+    <p>
+      Electricity Department Helpdesk is a student project designed to help
+      consumers navigate common electricity services through WhatsApp.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Services</h2>
+    <ul>
+      <li>Guidance for downloading and printing electricity bills</li>
+      <li>Assistance with GPay and UPI payment-related issues</li>
+      <li>Electricity complaint registration</li>
+      <li>Complaint status assistance</li>
+      <li>Guidance for common consumer-side electricity issues</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>How It Works</h2>
+    <p>
+      Consumers can communicate with the AI assistant through WhatsApp.
+      The assistant understands the consumer's request, provides navigation
+      instructions, or collects the required information to register a
+      complaint in the project database.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Important Notice</h2>
+    <div class="note">
+      This website and WhatsApp assistant are a student project/demo.
+      They are not an official government electricity department website.
+      The assistant does not request OTPs, UPI PINs, bank passwords, or
+      card PINs.
+    </div>
+  </section>
+</main>
+
+<footer>
+  NITN Student Project &copy; 2026 — Electricity Department Helpdesk
+</footer>
+
+</body>
+</html>
